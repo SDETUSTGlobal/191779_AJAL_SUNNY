@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <style>
+        html {
+            background: url('/static/05-1-6.jpg') rgba(7, 1, 12, 0.61);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-blend-mode: darken;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: -1;
+            min-height: 600px;
+        }
+
+        .body-content {
+            padding-top: 20vh;
+        }
+        .container {
+            width: 350px;
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            border: 2px solid White;
+            border-radius: 15px;
+            background: white;
+        }
+
+        .logo {
+            margin-bottom: 15px;
+            margin-top: 0px;
+            padding-top: 0;
+        }
+
+        .logo img {
+            width: 150px;
+            margin: 10px;
+            border-radius: 50px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-item {
+            margin: 5px;
+            padding-bottom: 10px;
+            display: flex;
+        }
+
+        .form-item label {
+            display: block;
+            padding: 2px;
+            font-size: 20px;
+            width: 100px;
+        }
+
+        .form-item input {
+            width: 320px;
+            height: 35px;
+            border: 2px solid #e1dede69;
+            border-radius: 20px;
+            background: #e1dede69;
+            color: grey;
+        }
+
+        .form-btns {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            padding: 10px 0;
+        }
+
+        .form-btns button {
+            margin: auto;
+            font-size: 20px;
+            padding: 5px 15px;
+            border: 2px solid;
+            border-radius: 15px;
+            color: white;
+            background: #178cc6;
+            width: 280px;
+            cursor: pointer;
+        }
+
+        .options {
+            padding-top: 15px;
+            margin: auto;
+        }
+
+        .options a {
+            text-decoration: none;
+            color: black;
+            margin: 0 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+
+        }
+        .options a:hover {
+            color: grey;
+
+        }
+
+        p {
+            text-align: center;
+            font-size: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+
+</head>
+<body>
+
+
+
+
+        <div class="container">
+            <div class="logo">
+                <img src="https://mindbodyshe.com/wp-content/uploads/2018/07/samples-of-logo-designs-sample-of-company-logo-design-ngo-logo-design-samples.jpg" alt="Company Logo" srcset="">
+
+            </div>
+            <h2> Login</h2>
+            <div class="login-form">
+                <form method="POST" action="" enctype="multipart/form-data">
+                    <div class="form-item">
+
+                        <input type="text" name="a" id="name" placeholder="Name">
+                    </div>
+                    <div class="form-item">
+
+                        <input type="number" name="b" id="uid" placeholder="UID">
+                    </div>
+                    <div class="form-item">
+
+                        <input type="text" name="c" id="cname" placeholder="Company Name">
+                    </div>
+                    <div class="form-item">
+
+                        <input type="email" name="d" id="cmail" placeholder="Email">
+                    </div>
+                    <div class="form-item">
+
+                        <input type="password" name="e" id="password" placeholder="Passwords">
+                    </div>
+                    <div class="form-btns">
+                <button type="submit" >Submit</button>
+                        <br>
+                    </div>
+
+
+                </form>
+
+            </div>
+        </div>
+
+
+
+
+</body>
+
+</html>
